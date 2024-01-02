@@ -1,0 +1,151 @@
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0px;
+  background-color: cornflowerblue;
+}
+
+.nav-ul li a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: cornflowerblue;
+  
+}
+
+.register, .product{
+  margin-left: 30%;
+}
+
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+.login h1{
+  margin-left: 2%;
+}
+.register h1{
+  margin-left: 2%;
+}
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid cornflowerblue;
+
+}
+
+.register button{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: cornflowerblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+
+.login button{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: cornflowerblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.product button{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: cornflowerblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.logo{
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-left: 15px;
+}
+
+.invalid-input{
+  color:red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.product h1{
+  margin-left: 30px;
+}
+.product-list{
+text-align: center;
+margin-top: 50px;
+}
+
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid #61dafb;
+  padding: 5px;
+  width: 150px;
+
+}
+.product-list ul{
+  margin: 0px;
+}
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid #61dafb;
+  padding-left: 20px;
+}
+
+.operation-btn button{
+ 
+  margin-right:5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
